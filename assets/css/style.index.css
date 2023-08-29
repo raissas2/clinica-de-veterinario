@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+#div-header{
+    text-align: center;
+}
+header{
+  background-color: #1d7044;
+  color: white;
+  font-size: 1.7rem;
+  width: 100%;
+  height: 120px;
+  padding: 20px;
+
+}
+#cadastro{
+    border: none;
+    background-color: #1d7044;
+    color: white;
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+#exibir{
+    background-color: #1d7044;
+    border: none;
+    color: white;
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 25rem;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    display: flex;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#input-principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #1d7044;
+    color: white;
+    font-size: 1.7rem;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5rem;
+    position: fixed;
+   
+    
+}
+#titulo-principal{
+    padding: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+erro{
+    color: red;
+}
+
+sucesso{
+    color: rgb(139, 222, 44);
+}
+
+#botao-cadastrar{
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    background-color: rgb(0,65,0);
+    color: white;
+    border-radius: 7%;
+    margin-top: 15px;
+}
+#botao-cadastrar:hover{
+    background-color: rgb(0,45,0);
+    cursor: pointer;
+    border-radius: 7%;
+    color: white;
+    
+}
+.hidden{
+    display: none !important;
+}
+
+#containerLista {
+    height: 540px;
+    overflow-y: auto;
+}
+
