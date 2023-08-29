@@ -15,9 +15,25 @@ function verificarInputs(){
 
 if(tutor == "" || nomepet == "" || especie == "" || fotolink == "" || date == ""){
     console.log("Os campos estão vazios!");
-
+    envieMsg("Preencha todos os campos!", "erro");
+   
 } else {
     console.log("Os campos não estão em brancos!");
+   
    }
+}
+
+function envieMsg(msg,tipo){
+let msgDiv = document.getElementById("msg");
+msgDiv.innerHTML = "";
+
+let msgnaTela = `
+<p class='${tipo}'>${msg}<p>
+`
+   msgDiv.innerHTML += msgnaTela;
+
+   setTimeout(function () {
+       msgDiv.innerHTML = "";
+   }, 3000);
 }
 
